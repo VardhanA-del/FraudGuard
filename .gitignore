@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+data/raw/*.csv
+creditcard.csv/
+data/processed/*
+!data/processed/.gitkeep
+data/database/*.db
+models/*.joblib
+models/*.json
+logs/*.log
+.pytest_cache/
